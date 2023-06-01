@@ -18,8 +18,7 @@ public class Display6 extends AppCompatActivity {
 
             //Здесь обновляем текст счетчика обратного отсчета с каждой секундой
             public void onTick(long millisUntilFinished) {
-                mTimer.setText("Отправить код повторно можно /n будет через  "
-                        + millisUntilFinished / 1000 + "секунд");
+                mTimer.setText("Отправить код повторно можно\nбудет через " +millisUntilFinished / 1000+ " секунд");
             }
 
             @Override
@@ -30,5 +29,4 @@ public class Display6 extends AppCompatActivity {
                 .start();
     }
 }
-    }
-}
+

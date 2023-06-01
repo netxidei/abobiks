@@ -17,14 +17,16 @@
             android:layout_height="wrap_content"
             android:orientation="horizontal">
 
-            <TextView
+            <Button
                 android:id="@+id/textView3"
+                style="@style/Widget.AppCompat.Button.Borderless.Colored"
                 android:layout_width="wrap_content"
                 android:layout_height="wrap_content"
-                android:text="Пропустить"
-                android:paddingTop="10dp"
+                android:onClick="gonext"
                 android:paddingStart="10dp"
-                android:textColor="#0000ff"/>
+                android:paddingTop="10dp"
+                android:text="Пропустить"
+                android:textColor="#0000ff" />
 
             <ImageView
                 android:id="@+id/imageView3"
